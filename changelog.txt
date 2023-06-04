@@ -1,0 +1,269 @@
+[h1]1.0.0.0: 100%[/h1]
+After 6 months of work (alongside a few objects/particles/objects, the two UI mods, and my other super secret work [coming soon!]), all vanilla spell icons have finally been resprited. It's been quite the learning experience for both my art and modding as a whole, and I'm proud to have come this far. Thank you all for taking the time to check out this mod and for your support!
+
+So... what's next?
+Well, as you can probably tell, the mod version has gained an extra number; now instead of major.content.patch, it'll look like overhaul.major.content.patch. This is because further updates will contain large amounts of WIP content as the primary focuses change, and respective assets will be added as a 'major' complete release once a primary focus is completed.
+The focus will turn from the spells to the environment, with a few other things alongside. I am [i]far[/i] from done here...
+[quote]
+[h2]New Additions[/h2]
+[b]Miscellaneous UI Elements[/b]
+[list]
+[*]Miniboss Health Bar (2)
+[/list]
+[b]Particles/Emitters[/b]
+[list]
+[*]Black Hole Fadeout
+[*]Bubble Spark Explosion
+[*]Chest Pickup Emitter
+[*]Dark Flame Fadeout
+[*]Disc Trail
+[*]Electric Arc
+[*]Electric Explosion - 40px
+[*]Electric Spark
+[*]Energy Explosion - Blue 16px
+[*]Energy Explosion - Green 16px
+[*]Epaalkemisti's Glitter (6)
+[*]Health Pickup Fadeout
+[*]Health/Refresh Pickup Emitter
+[*]Holy Mountain Collapse Emitter
+[*]Mini Portal Graphics - Indigo Whirl (8)
+[*]Portal Graphic - Purple
+[*]Portal Graphics - Blue Whirl (8)
+[*]Portal Graphics - Green Whirl (8)
+[*]Portal Graphics - Magenta Whirl (8)
+[*]Portal Graphics - Red Whirl (8)
+[*]Potion Pickup Emitter
+[*]Protection From All - Evil
+[*]Quantum Split (2)
+[*]Shop Buy Emitter
+[*]Spectral Wand Emitter
+[*]Spell Refresher Fadeout
+[*]Wand Pickup Emitter
+[/list]
+[b]Items[/b]
+[list]
+[*]Giga Holy Bomb
+[*]Glitter Bomb
+[*]Holy Bomb
+[*]Propane Tank
+[*]Rock
+[*]TNT
+[/list]
+[b]Objects[/b]
+[list]
+[*]Chains (2)
+[*]End Trophies (14)
+[*]Extra Max HP
+[*]Full Health Regeneration
+[*]Giga Holy Bomb
+[*]Glitter Bomb
+[*]Glue Ball (2)
+[*]Great Treasure Chest
+[*]Hanging Torch
+[*]Holy Bomb
+[*]Holy Mountain Lantern
+[*]Holy Mountain Rubble (6)
+[*]Holy Mountain Sale Indicator
+[*]Holy Mountain Statue (3)
+[*]Minecart
+[*]Minecart Wheel (2)
+[*]Perk Reroll Machine
+[*]Spell Refresher
+[*]Standing Torch
+[*]Temple Crystal - Cursed
+[*]Temple Crystal - Firebolt
+[*]Temple Crystal - Quake
+[*]Temple Sarcophagus (2)
+[*]Temple Statue
+[*]Temple Vase - Gunpowder
+[*]Temple Vase - Hamis
+[*]TNT
+[*]Treasure Chest
+[*]Worm Crystal
+[/list]
+[b]Creatures[/b]
+[list]
+[*]Epaalkemisti (3)
+[*]Epaalkemisti Orb
+[*]Evakas (3)
+[*]Gate Guardian - Veska, Molari, Mokke, & Seula (8)
+[*]Haavoittajamestari (4)
+[*]Hahmonvaihtaja (3)
+[*]Hamis (3)
+[*]Happonuljaska (3)
+[*]Hohtava Hyypio (2)
+[*]Houre
+[*]Houre Crystal
+[*]Hyypio (2)
+[*]Jalkamatkatavara (6)
+[*]Jattimato (9)
+[*]Kadotettu Alkemisti (3)
+[*]Kallokarpanen (4)
+[*]Kallorotta (4)
+[*]Kalmamato (3)
+[*]Kirottu Kristalli (2)
+[*]Kiukkuhalma
+[*]Kohdennusmestari (4)
+[*]Kolmisilma (13)
+[*]Kolmisilman Apuri (3)
+[*]Maadoittajamestari (4)
+[*]Matkija (3)
+[*]Mato (9)
+[*]Mulkkio (4)
+[*]Muodonmuutosmestari (4)
+[*]Palauttajamestari (4)
+[*]Pahan Muisto
+[*]Pikkumato (9)
+[*]Pikkuturso (3)
+[*]Sathymestari (4)
+[*]Siirtajamestari (4)
+[*]Skorpioni (3)
+[*]Skoude (4)
+[*]Sokaisunmestari (4)
+[*]Spiraalikalma
+[*]Stevari (4)
+[*]Sylkyri (3)
+[*]Temple Wall Trap - Acid
+[*]Temple Wall Trap - Arrow
+[*]Temple Wall Trap - Fire
+[*]Temple Wall Trap - Thunder
+[*]Toukka (3)
+[*]Turso (3)
+[*]Turvattomuusmestari (4)
+[*]Turvonnu Velho (3)
+[*]Vaihdosmestari (4)
+[*]Valaistunut Alkemisti (7)
+[/list]
+Shared Parts
+[list]
+[*]Hyypio Tail (3)
+[*]Tentacle - Slime (6)
+[*]Tentacle - Small Purple (6)
+[*]Tentacle - Teal (3)
+[/list]
+Other
+[list]
+[*]Progress Log Icons (46)
+[*]Gore (172)
+[/list]
+[b]Projectiles[/b]
+[list]
+[*]Acid Ball
+[*]Acid Ball - Mini
+[*]Arrow
+[*]Black Hole
+[*]Bouncing Burst
+[*]Bubble Spark
+[*]Bullet
+[*]Concentrated Light
+[*]Dark Flame
+[*]Disc
+[*]Electric Beetle
+[*]Energy Sphere
+[*]Giant Spitter Bolt
+[*]Giga Disc Projectile
+[*]Giga Nuke
+[*]Glowing Lance
+[*]Glue Ball
+[*]Hahmonvaihtaja's Orb
+[*]Intense Concentrated Light
+[*]Large Spitter Bolt
+[*]Lightning
+[*]Magic Arrow
+[*]Missile
+[*]Nuke
+[*]Omega Sawblade
+[*]Orb - Blue
+[*]Orb - Grey
+[*]Orb - Pink
+[*]Orb - Violet
+[*]Slime Trail Blob
+[*]Spark Bolt
+[*]Spitter Bolt
+[*]Tentacle - Slime (6)
+[*]TNT
+[/list]
+[b]Materials[/b]
+[list]
+[*]Blue Sand
+[*]Brickwork (3)
+[*]Brickwork - Alt (3)
+[*]Brickwork - Broken (3)
+[*]Brickwork - Diamond (3)
+[*]Brickwork - Gold (3)
+[*]Cursed Rock
+[*]Dense Rock
+[*]Diamond
+[*]Extremely Dense Rock
+[*]Gold
+[*]Greed-Cursed Rock
+[*]Mud
+[*]Rock
+[*]Sand
+[*]Sandstone
+[*]Volcanic Sand
+[*]Wood (2)
+[/list]
+[b]Pixel Scenes[/b]
+[list]
+[*]Entrance of The Tower
+[*]Fast Travel Room
+[*]Gate Guardian Passage
+[*]Gate Guardian Passage GFX
+[*]Holy Mountain (13)
+[*]Holy Mountain GFX (3)
+[*]Portal to The Tower
+[*]Spell Shop GFX (Temple)
+[*]The Laboratory (2)
+[*]The Laboratory GFX
+[*]The Work - End
+[*]The Work - End GFX
+[/list]
+[b]Background Decor[/b]
+[list]
+[*]End Machine
+[*]Laboratory Statues (4)
+[*]Mestari Statues (6)
+[*]Temple Platforms (7)
+[/list]
+[b]Biome Backgrounds[/b]
+[list]
+[*]Gate Guardian Passage
+[*]Holy Mountain (2)
+[*]Portal to The Tower
+[*]Temple of the Art (5)
+[*]The Laboratory
+[*]The Work - End
+[*]Underground Default (2)
+[/list]
+[/quote][quote]
+[h2]Fixes[/h2]
+[b]Spell Icons[/b]
+[list]
+[*]Changed all instances of the "Sublimation" symbol into "Congelation"
+[*]Repaletted several spells which depicted wood
+[*]Repaletted several spells which depicted red or blue crystal
+[*]Repaletted Circle of Stillness
+[*]Remade Disc Projectile
+[*]Remade Giga Disc Projectile
+[*]Remade Omega Sawblade
+[/list]
+[b]Infobox Icons[/b]
+[list]
+[*]Remade Ice Damage
+[/list]
+[b]Miscellaneous UI Elements[/b]
+[list]
+[*]Remade Pause Menu Graphics (2)
+[/list]
+[b]Wands[/b]
+[list]
+[*]Tweaked Varpuluuta
+[*]Repaletted Ruusu
+[*]Repaletted Vasta
+[*]Repaletted Vihta
+[*]Repaletted Kiekurakeppi
+[*]Repaletted Kantele
+[*]Tweaked Experimental Wand (Glittery)
+[/list]
+[/quote]
