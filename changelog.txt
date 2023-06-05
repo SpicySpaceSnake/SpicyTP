@@ -1,9 +1,7 @@
-[h1]1.0.0.0: 100%[/h1]
-After 6 months of work (alongside a few objects/particles/objects, the two UI mods, and my other super secret work [coming soon!]), all vanilla spell icons have finally been resprited. It's been quite the learning experience for both my art and modding as a whole, and I'm proud to have come this far. Thank you all for taking the time to check out this mod and for your support!
-
-So... what's next?
-Well, as you can probably tell, the mod version has gained an extra number; now instead of major.content.patch, it'll look like overhaul.major.content.patch. This is because further updates will contain large amounts of WIP content as the primary focuses change, and respective assets will be added as a 'major' complete release once a primary focus is completed.
-The focus will turn from the spells to the environment, with a few other things alongside. I am [i]far[/i] from done here...
+[h1]1.0.1.0: 100%[/h1]
+Uhhh content! Lots! Decided that I'll release periodic WIP updates instead of trying to complete an entire biome before releasing, because oh god this is taking forever and I don't want this to go stale or reach a point where I can't make minor but important updates without doing some folder juggling.
+Includes a decent chunk of Temple-related assets (enemies, materials, other cool stuff), a near-complete Holy Mountain, and a few other objects and projectiles.
+Also, there's now a [url=]Git repo[/url]! Go there if you want older releases because you don't like incomplete content (eg. current goal is Temple and Lab, whose assets won't be fully completed until 1.1).
 [quote]
 [h2]New Additions[/h2]
 [b]Miscellaneous UI Elements[/b]
@@ -12,9 +10,6 @@ The focus will turn from the spells to the environment, with a few other things 
 [/list]
 [b]Particles/Emitters[/b]
 [list]
-[*]Black Hole Fadeout
-[*]Bubble Spark Explosion
-[*]Chest Pickup Emitter
 [*]Dark Flame Fadeout
 [*]Disc Trail
 [*]Electric Arc
@@ -22,23 +17,16 @@ The focus will turn from the spells to the environment, with a few other things 
 [*]Electric Spark
 [*]Energy Explosion - Blue 16px
 [*]Energy Explosion - Green 16px
-[*]Epaalkemisti's Glitter (6)
 [*]Health Pickup Fadeout
 [*]Health/Refresh Pickup Emitter
-[*]Holy Mountain Collapse Emitter
 [*]Mini Portal Graphics - Indigo Whirl (8)
 [*]Portal Graphic - Purple
 [*]Portal Graphics - Blue Whirl (8)
 [*]Portal Graphics - Green Whirl (8)
 [*]Portal Graphics - Magenta Whirl (8)
 [*]Portal Graphics - Red Whirl (8)
-[*]Potion Pickup Emitter
-[*]Protection From All - Evil
 [*]Quantum Split (2)
-[*]Shop Buy Emitter
-[*]Spectral Wand Emitter
 [*]Spell Refresher Fadeout
-[*]Wand Pickup Emitter
 [/list]
 [b]Items[/b]
 [list]
@@ -52,7 +40,6 @@ The focus will turn from the spells to the environment, with a few other things 
 [b]Objects[/b]
 [list]
 [*]Chains (2)
-[*]End Trophies (14)
 [*]Extra Max HP
 [*]Full Health Regeneration
 [*]Giga Holy Bomb
@@ -79,108 +66,53 @@ The focus will turn from the spells to the environment, with a few other things 
 [*]Temple Vase - Hamis
 [*]TNT
 [*]Treasure Chest
-[*]Worm Crystal
 [/list]
 [b]Creatures[/b]
 [list]
-[*]Epaalkemisti (3)
-[*]Epaalkemisti Orb
-[*]Evakas (3)
-[*]Gate Guardian - Veska, Molari, Mokke, & Seula (8)
-[*]Haavoittajamestari (4)
-[*]Hahmonvaihtaja (3)
-[*]Hamis (3)
-[*]Happonuljaska (3)
-[*]Hohtava Hyypio (2)
-[*]Houre
-[*]Houre Crystal
-[*]Hyypio (2)
-[*]Jalkamatkatavara (6)
-[*]Jattimato (9)
-[*]Kadotettu Alkemisti (3)
-[*]Kallokarpanen (4)
-[*]Kallorotta (4)
-[*]Kalmamato (3)
-[*]Kirottu Kristalli (2)
-[*]Kiukkuhalma
-[*]Kohdennusmestari (4)
-[*]Kolmisilma (13)
-[*]Kolmisilman Apuri (3)
-[*]Maadoittajamestari (4)
-[*]Matkija (3)
-[*]Mato (9)
-[*]Mulkkio (4)
-[*]Muodonmuutosmestari (4)
-[*]Palauttajamestari (4)
-[*]Pahan Muisto
-[*]Pikkumato (9)
-[*]Pikkuturso (3)
-[*]Sathymestari (4)
-[*]Siirtajamestari (4)
-[*]Skorpioni (3)
-[*]Skoude (4)
-[*]Sokaisunmestari (4)
-[*]Spiraalikalma
-[*]Stevari (4)
-[*]Sylkyri (3)
-[*]Temple Wall Trap - Acid
-[*]Temple Wall Trap - Arrow
-[*]Temple Wall Trap - Fire
-[*]Temple Wall Trap - Thunder
-[*]Toukka (3)
-[*]Turso (3)
-[*]Turvattomuusmestari (4)
-[*]Turvonnu Velho (3)
-[*]Vaihdosmestari (4)
-[*]Valaistunut Alkemisti (7)
+[*]Creep - "Hyypio" (2)
+[*]Cursed Crystal - "Kirottu Kristalli" (2)
+[*]Death Worm - "Kalmamato" (3)
+[*]Delirium - "Houre" (2)
+[*]Delirium's Crystal
+[*]Fish - "Evakas" (3)
+[*]Giant Worm - "Jattimato" (9)
+[*]Glowing Creep - "Hohtava Hyypio" (2)
+[*]Skull Fly - "Kallokarpanen" (4)
+[*]Skull Rat - "Kallorotta" (4)
+[*]Small Worm - "Pikkumato" (9)
+[*]Temple Acid Trap
+[*]Temple Arrow Trap
+[*]Temple Fire Trap
+[*]Temple Thunder Trap
+[*]Worm - "Mato" (9)
 [/list]
 Shared Parts
 [list]
-[*]Hyypio Tail (3)
-[*]Tentacle - Slime (6)
-[*]Tentacle - Small Purple (6)
-[*]Tentacle - Teal (3)
+[*]Creep Tail (3)
 [/list]
 Other
 [list]
-[*]Progress Log Icons (46)
-[*]Gore (172)
+[*]Progress Log Icons (11)
+[*]Gore (16)
 [/list]
 [b]Projectiles[/b]
 [list]
-[*]Acid Ball
-[*]Acid Ball - Mini
 [*]Arrow
-[*]Black Hole
-[*]Bouncing Burst
-[*]Bubble Spark
 [*]Bullet
-[*]Concentrated Light
 [*]Dark Flame
 [*]Disc
-[*]Electric Beetle
 [*]Energy Sphere
 [*]Giant Spitter Bolt
 [*]Giga Disc Projectile
 [*]Giga Nuke
 [*]Glowing Lance
 [*]Glue Ball
-[*]Hahmonvaihtaja's Orb
-[*]Intense Concentrated Light
 [*]Large Spitter Bolt
 [*]Lightning
 [*]Magic Arrow
 [*]Missile
 [*]Nuke
 [*]Omega Sawblade
-[*]Orb - Blue
-[*]Orb - Grey
-[*]Orb - Pink
-[*]Orb - Violet
-[*]Slime Trail Blob
-[*]Spark Bolt
-[*]Spitter Bolt
-[*]Tentacle - Slime (6)
 [*]TNT
 [/list]
 [b]Materials[/b]
@@ -197,12 +129,8 @@ Other
 [*]Extremely Dense Rock
 [*]Gold
 [*]Greed-Cursed Rock
-[*]Mud
 [*]Rock
 [*]Sand
-[*]Sandstone
-[*]Volcanic Sand
-[*]Wood (2)
 [/list]
 [b]Pixel Scenes[/b]
 [list]
@@ -222,7 +150,6 @@ Other
 [b]Background Decor[/b]
 [list]
 [*]End Machine
-[*]Laboratory Statues (4)
 [*]Mestari Statues (6)
 [*]Temple Platforms (7)
 [/list]

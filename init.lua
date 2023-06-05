@@ -77,122 +77,6 @@ function OnModPostInit()
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
--- PROJECTILES
-    -- Dark Flame (changing frame dimensions to be even)
-    local file_path = "data/projectiles_gfx/darkflame.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        "12",
-        "13"
-    )
-    file_path_contents = file_path_contents:gsub(
-        'frame_height="13"',
-        'frame_height="15"'
-    )
-    file_path_contents = file_path_contents:gsub(
-        'pos_y="1"',
-        'pos_y="0"'
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-
-    -- Disc Projectile (changing animation speed)
-    local file_path = "data/projectiles_gfx/disc_bullet.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        "1000",
-        "0.05"
-    )
-    -- (changing location of grounded sprite)
-    file_path_contents = file_path_contents:gsub(
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="0"]],
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="9"]]
-    )
-    -- (disabling animation speed scaling)
-    file_path_contents = file_path_contents:gsub(
-        'velocity_updates_animation="1"',
-        'velocity_updates_animation="0"'
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-    -- (disabling animation speed scaling)
-    local file_path = "data/entities/projectiles/deck/disc_bullet.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        'velocity_updates_animation="1"',
-        'velocity_updates_animation="0"'
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-    -- (adding component so it switches to grounded sprite before dying)
-    local nxml = dofile_once("mods/SpicyTP/lib/nxml.lua")
-    local content = ModTextFileGetContent(file_path)
-    local xml = nxml.parse(content)
-    xml:add_child(nxml.parse([[
-        <LuaComponent
-        _enabled="1"
-        script_source_file="mods/SpicyTP/files/scripts/projectiles/disc_bullet_inert.lua"
-        execute_every_n_frame="-1"
-        execute_on_removed="1"
-        />
-        ]]))
-    ModTextFileSetContent(file_path, tostring(xml))
-    print(file_path_contents)
-
-    -- Giga Disc Projectile (changing animation speed)
-    local file_path = "data/projectiles_gfx/disc_bullet_big.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        "1000",
-        "0.05"
-    )
-    -- (changing location of grounded sprite)
-    file_path_contents = file_path_contents:gsub(
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="0"]],
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="17"]]
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-    -- (disabling animation speed scaling)
-    local file_path = "data/entities/projectiles/deck/disc_bullet_big.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        'velocity_updates_animation="1"',
-        'velocity_updates_animation="0"'
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-
-    -- Omega Sawblade (changing animation speed)
-    local file_path = "data/projectiles_gfx/disc_bullet_bigger.xml"
-    local file_path_contents = ModTextFileGetContent(file_path)
-    file_path_contents = file_path_contents:gsub(
-        "0.02",
-        "0.05"
-    )
-    -- (setting frame count to 4)
-    file_path_contents = file_path_contents:gsub(
-        'frames_per_row="3"',
-        'frames_per_row="4"'
-    )
-    file_path_contents = file_path_contents:gsub(
-        'frame_count="3"',
-        'frame_count="4"'
-    )
-    -- (changing location of grounded sprite)
-    file_path_contents = file_path_contents:gsub(
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="0"]],
-        [[name="on_ground"
-        pos_x="0"
-        pos_y="25"]]
-    )
-    ModTextFileSetContent(file_path, file_path_contents)
-
 -- ITEMS
     -- Egg (tentacle) (changing image)
     local file_path = "data/entities/items/pickup/egg_red.xml"
@@ -231,7 +115,7 @@ function OnModPostInit()
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
--- ENEMIES
+-- CREATURES
     -- Skull Rat (adding emissive layer)
     local nxml = dofile_once("mods/SpicyTP/lib/nxml.lua")
     local file_path = "data/entities/animals/skullrat.xml"
@@ -360,6 +244,134 @@ function OnModPostInit()
     file_path_contents = file_path_contents:gsub(
         'eat_anim_wait_mult="0.05 "',
         'eat_anim_wait_mult="0.5"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+
+-- PROJECTILES
+    -- Dark Flame (changing frame dimensions to be even)
+    local file_path = "data/projectiles_gfx/darkflame.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        "12",
+        "13"
+    )
+    file_path_contents = file_path_contents:gsub(
+        'frame_height="13"',
+        'frame_height="15"'
+    )
+    file_path_contents = file_path_contents:gsub(
+        'pos_y="1"',
+        'pos_y="0"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+
+    -- Disc Projectile (changing animation speed)
+    local file_path = "data/projectiles_gfx/disc_bullet.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        "1000",
+        "0.05"
+    )
+    -- (changing location of grounded sprite)
+    file_path_contents = file_path_contents:gsub(
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="0"]],
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="9"]]
+    )
+    -- (disabling animation speed scaling)
+    file_path_contents = file_path_contents:gsub(
+        'velocity_updates_animation="1"',
+        'velocity_updates_animation="0"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+    -- (disabling animation speed scaling)
+    local file_path = "data/entities/projectiles/deck/disc_bullet.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        'velocity_updates_animation="1"',
+        'velocity_updates_animation="0"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+    -- (adding component so it switches to grounded sprite before dying)
+    local nxml = dofile_once("mods/SpicyTP/lib/nxml.lua")
+    local content = ModTextFileGetContent(file_path)
+    local xml = nxml.parse(content)
+    xml:add_child(nxml.parse([[
+        <LuaComponent
+        _enabled="1"
+        script_source_file="mods/SpicyTP/files/scripts/projectiles/disc_bullet_inert.lua"
+        execute_every_n_frame="-1"
+        execute_on_removed="1"
+        />
+        ]]))
+    ModTextFileSetContent(file_path, tostring(xml))
+    print(file_path_contents)
+
+    -- Giga Disc Projectile (changing animation speed)
+    local file_path = "data/projectiles_gfx/disc_bullet_big.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        "1000",
+        "0.05"
+    )
+    -- (changing location of grounded sprite)
+    file_path_contents = file_path_contents:gsub(
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="0"]],
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="17"]]
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+    -- (disabling animation speed scaling)
+    local file_path = "data/entities/projectiles/deck/disc_bullet_big.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        'velocity_updates_animation="1"',
+        'velocity_updates_animation="0"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+
+    -- Omega Sawblade (changing animation speed)
+    local file_path = "data/projectiles_gfx/disc_bullet_bigger.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        "0.02",
+        "0.05"
+    )
+    -- (setting frame count to 4)
+    file_path_contents = file_path_contents:gsub(
+        'frames_per_row="3"',
+        'frames_per_row="4"'
+    )
+    file_path_contents = file_path_contents:gsub(
+        'frame_count="3"',
+        'frame_count="4"'
+    )
+    -- (changing location of grounded sprite)
+    file_path_contents = file_path_contents:gsub(
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="0"]],
+        [[name="on_ground"
+        pos_x="0"
+        pos_y="25"]]
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+
+-- MATERIALS
+    -- Volcanic Sand (changing texture)
+    local file_path = "data/materials.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        [[texture_file="data/materials_gfx/lavarock.png"
+        color="ff0A8240"]],
+        [[texture_file="mods/SpicyTP/files/materials_gfx/lavasand.png"
+        color="ff0A8240"]]
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
