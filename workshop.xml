@@ -1,0 +1,84 @@
+<Mod
+	name="SpicyTP:Core"
+	description="[h1]Spicy's Texture Pack: Core 1.0.1.0[/h1]
+is the original resource pack for Noita. It aims to give most of the game a clean and unified aesthetic by way of many visual overhauls in one consistent style, including sleeker UI, more detailed materials, redesigned enemies, touched-up pixel scenes, and much more.
+[h3]Join the Discord![/h3]
+Well, it's really [url=https://discord.gg/AJXKqVZrMK]my personal Discord[/url]. But if you hop in and grab yourself a self-assignable role, there's a category that acts as my modding hub.
+
+[hr][/hr]
+[h2]What sprites does this mod overhaul?[/h2]
+This mod currently supports:
+[list]
+[*]Vanilla - [url=https://steamcommunity.com/workshop/filedetails/discussion/2859751773/3372657164725020666/]796 sprites[/url]
+[/list]
+...and much more to come.
+
+[h3]Toggles[/h3]
+Though I strongly encourage having all sprites on and learning them, toggles exist in case you don't want certain ones. More will be added as needed and coded.
+
+[h3]See also[/h3]
+To further customize SpicyTP, or to get lighter packages, check out the list below or visit [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2887423419]the full collection of SpicyTP mods[/url].
+[list]
+[*]STP:EUI - a gilded UI theme
+[*]STP:FFUI - a heavy and metallic UI theme, made for the streamer FuryForged
+[/list]
+
+[hr][/hr]
+[h2]Is this mod compatible with X?[/h2]
+SpicyTP is a relative friendly mod and really shouldn't break anything.
+At most, a Mod X that overrites the same files or edits the same sections of files as SpicyTP may take priority over this mod if Mod X loads after it; likewise, this mod will take priority over others, though that's beneficial at times due to the nature of this mod.
+
+[b]Found a bug? Leave a comment or start a discussion![/b]
+
+[hr][/hr]
+[h2]Will there ever be cross-mod support?[/h2]
+[b]Yes![/b] There's already a fair bit of cross-mod content that I want to do (alongside further vanilla content updates), although I don't know what exactly I'll be doing next or when I'll do it.
+Also, I'm not familiar with every mod out there! If you're the owner of (or somehow affiliated with) a mod that you want me to add support for, consider reaching out to ask.
+
+[hr][/hr]
+[h2]How often does this mod update?[/h2]
+Updates will likely become somewhat sparse, taking anywhere from 1-3 months; biomes are hefty and large, and I don't want to release incomplete content. There is a [i]small chance[/i] I may release WIP builds before a biome is fully complete, though how exactly I'd do that is something I'm not sure of yet.
+In practice, however, this varies; after all, this is merely a hobby project, and other things may take priority over this mod.
+
+[b]CURRENT PRIMARY FOCUS(ES)[/b]
+[list]
+[*]Temple of the Art
+[*]Holy Mountains
+[*]The Laboratory/The Work (End)
+[/list]
+
+[b]CURRENT SECONDARY FOCUS(ES)[/b]
+[list]
+[*]Projectiles
+[*]Items
+[/list]
+
+[b]CURRENT STATUS:[/b] in active development
+
+[i]Status last verified March 17, 2023
+Mod last updated March 17, 2023[/i]
+
+[hr][/hr]
+[h2]Credits[/h2]
+[list]
+[*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): main artist
+[*][b]Copi[/b] (@Human#6606 / [url=https://steamcommunity.com/id/Copioush/]Copi[/url]): programming the mod's spell icon replacement method and providing much-needed help with various other bits of code
+[*][b]Conga Lyne[/b] (@Conga Lyne#2452 / [url=https://steamcommunity.com/id/CongaLyne/]Conga Lyne[/url]): teaching me to use and providing me with NXML and creature stain map generation
+[*][b]Viowlet[/b] ([url=https://www.reddit.com/user/Viowlet/]u/Viowlet[/url]): their [url=https://www.reddit.com/r/noita/comments/jp56ub/a_while_ago_i_made_noita_blackletter_this_is_now]free-to-use Noita Blackletter font[/url]
+[/list]
+[h3]A special thanks to[/h3]
+[list]
+[*][b]Siris[/b], for being a partial inspiration for the SpicyTP series
+[*][b]Kirisis[/b], for being the light of my life and for her invaluable support and early feedback
+[*][b]All of my partners[/b], for being a bunch of absolutely amazing people
+[*][b]Copi, GrahamBurger, Conga Lyne, and many others[/b] that I've either worked with or gotten advice from, for their previous and continued support
+
+[*]and [b]YOU[/b], for taking the time to check out this mod!
+[/list]
+
+Please be sure to rate on your way out, and share this with anyone you think might like it. Happy Noiting!"
+	tags="graphics, quality of life, spells, items, creatures, biomes"
+	dont_upload_folders=""
+	dont_upload_files=""
+> 
+</Mod>
