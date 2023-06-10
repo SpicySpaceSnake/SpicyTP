@@ -65,7 +65,15 @@ function OnModPostInit()
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
-    -- Electric Explosion - 40px (making the Thunder Trap's projectile use this)
+    -- Electric Explosion - 40px (changing animation speed)
+    local file_path = "data/particles/explosion_040_electric.xml"
+    local file_path_contents = ModTextFileGetContent(file_path)
+    file_path_contents = file_path_contents:gsub(
+        'frame_wait="0.02"',
+        'frame_wait="0.04"'
+    )
+    ModTextFileSetContent(file_path, file_path_contents)
+    -- (making the Thunder Trap's projectile use this)
     local file_path = "data/entities/projectiles/thunder_trap.xml"
     local file_path_contents = ModTextFileGetContent(file_path)
     file_path_contents = file_path_contents:gsub(

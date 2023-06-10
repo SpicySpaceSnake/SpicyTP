@@ -7,6 +7,7 @@ Also, there's now a [url=]Git repo[/url]! Go there if you want older releases be
 [b]Miscellaneous UI Elements[/b]
 [list]
 [*]Miniboss Health Bar (2)
+[*]Progress Menu UI (4)
 [/list]
 [b]Particles/Emitters[/b]
 [list]
@@ -102,12 +103,10 @@ Other
 [*]Dark Flame
 [*]Disc
 [*]Energy Sphere
-[*]Giant Spitter Bolt
 [*]Giga Disc Projectile
 [*]Giga Nuke
 [*]Glowing Lance
 [*]Glue Ball
-[*]Large Spitter Bolt
 [*]Lightning
 [*]Magic Arrow
 [*]Missile
@@ -131,36 +130,26 @@ Other
 [*]Greed-Cursed Rock
 [*]Rock
 [*]Sand
+[*]Volcanic Sand
 [/list]
 [b]Pixel Scenes[/b]
 [list]
 [*]Entrance of The Tower
 [*]Fast Travel Room
-[*]Gate Guardian Passage
-[*]Gate Guardian Passage GFX
 [*]Holy Mountain (13)
 [*]Holy Mountain GFX (3)
 [*]Portal to The Tower
-[*]Spell Shop GFX (Temple)
-[*]The Laboratory (2)
-[*]The Laboratory GFX
-[*]The Work - End
-[*]The Work - End GFX
 [/list]
 [b]Background Decor[/b]
 [list]
-[*]End Machine
 [*]Mestari Statues (6)
 [*]Temple Platforms (7)
 [/list]
 [b]Biome Backgrounds[/b]
 [list]
-[*]Gate Guardian Passage
 [*]Holy Mountain (2)
 [*]Portal to The Tower
 [*]Temple of the Art (5)
-[*]The Laboratory
-[*]The Work - End
 [*]Underground Default (2)
 [/list]
 [/quote][quote]
