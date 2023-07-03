@@ -41,7 +41,7 @@ Also, there's now a [url=]Git repo[/url]! Go there if you want older releases be
 [b]Objects[/b]
 [list]
 [*]Chains (2)
-[*]Extra Max HP
+[*]Extra Max Health
 [*]Full Health Regeneration
 [*]Giga Holy Bomb
 [*]Glitter Bomb
