@@ -238,6 +238,7 @@ function OnModPostInit()
     ModTextFileSetContent(file_path, tostring(xml))
 
     -- Giant Worm (disabling animation speed scaling)
+    --[[
     local file_path = "data/entities/animals/worm_big.xml"
     local file_path_contents = ModTextFileGetContent(file_path)
     file_path_contents = file_path_contents:gsub(
@@ -254,6 +255,7 @@ function OnModPostInit()
         'eat_anim_wait_mult="0.5"'
     )
     ModTextFileSetContent(file_path, file_path_contents)
+    ]]
 
 -- PROJECTILES
     -- Dark Flame (changing frame dimensions to be even)
