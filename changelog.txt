@@ -1,5 +1,5 @@
-[h1]1.0.1.0: 100%[/h1]
-Uhhh content! Lots! Decided that I'll release periodic WIP updates instead of trying to complete an entire biome before releasing, because oh god this is taking forever and I don't want this to go stale or reach a point where I can't make minor but important updates without doing some folder juggling.
+[h1]1.0.1.0: Temple Update 1[/h1]
+Uhhh content! Lots! Decided that I'll release periodic WIP updates instead of trying to complete an entire biome before releasing, because this is taking waaay too long and I don't want this to go stale or reach a point where I can't make minor but important updates without doing some unfinished asset juggling.
 Includes a decent chunk of Temple-related assets (enemies, materials, other cool stuff), a near-complete Holy Mountain, and a few other objects and projectiles.
 Also, there's now a [url=]Git repo[/url]! Go there if you want older releases because you don't like incomplete content (eg. current goal is Temple and Lab, whose assets won't be fully completed until 1.1).
 [quote]
@@ -27,7 +27,7 @@ Also, there's now a [url=]Git repo[/url]! Go there if you want older releases be
 [*]Portal Graphics - Magenta Whirl (8)
 [*]Portal Graphics - Red Whirl (8)
 [*]Quantum Split (2)
-[*]Spell Refresher Fadeout
+[*]Spell Refresher Fadeout (currently nonfunctional, for some reason)
 [/list]
 [b]Items[/b]
 [list]
@@ -70,13 +70,14 @@ Also, there's now a [url=]Git repo[/url]! Go there if you want older releases be
 [/list]
 [b]Creatures[/b]
 [list]
+[b]Creature stain maps are currently broken;[/b] my map generator seems to have exploded and I am seeking a fix
 [*]Creep - "Hyypio" (2)
 [*]Cursed Crystal - "Kirottu Kristalli" (2)
 [*]Death Worm - "Kalmamato" (3)
 [*]Delirium - "Houre" (2)
 [*]Delirium's Crystal
 [*]Fish - "Evakas" (3)
-[*]Giant Worm - "Jattimato" (9)
+[*]Giant Worm - "Jattimato" (9) (visually awkward due to head speed scaling; will figure out how to disable this eventually)
 [*]Glowing Creep - "Hohtava Hyypio" (2)
 [*]Skull Fly - "Kallokarpanen" (4)
 [*]Skull Rat - "Kallorotta" (4)
@@ -85,7 +86,7 @@ Also, there's now a [url=]Git repo[/url]! Go there if you want older releases be
 [*]Temple Arrow Trap
 [*]Temple Fire Trap
 [*]Temple Thunder Trap
-[*]Worm - "Mato" (9)
+[*]Worm - "Mato" (9) (visually awkward due to head speed scaling; will figure out how to disable this eventually)
 [/list]
 Shared Parts
 [list]
@@ -101,9 +102,9 @@ Other
 [*]Arrow
 [*]Bullet
 [*]Dark Flame
-[*]Disc
+[*]Disc Projectile (intended to have a grounded sprite that I currently cannot get working)
 [*]Energy Sphere
-[*]Giga Disc Projectile
+[*]Giga Disc Projectile (intended to have a grounded sprite that I currently cannot get working)
 [*]Giga Nuke
 [*]Glowing Lance
 [*]Glue Ball
@@ -111,7 +112,7 @@ Other
 [*]Magic Arrow
 [*]Missile
 [*]Nuke
-[*]Omega Sawblade
+[*]Omega Sawblade (intended to have a grounded sprite that I currently cannot get working)
 [*]TNT
 [/list]
 [b]Materials[/b]
