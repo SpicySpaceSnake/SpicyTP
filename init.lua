@@ -387,7 +387,6 @@ function OnModPostInit()
 
 -- PIXEL SCENES
     -- Holy Mountain (shifting spawn offset of center anger checks)
-    --[[
     local file_path = "data/scripts/biomes/temple_altar.lua"
     local file_path_contents = ModTextFileGetContent(file_path)
     file_path_contents = file_path_contents:gsub(
@@ -411,5 +410,4 @@ function OnModPostInit()
         'height="31"'
     )
     ModTextFileSetContent(file_path, file_path_contents)
-    ]]
 end
