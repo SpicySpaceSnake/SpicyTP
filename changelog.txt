@@ -1,10 +1,45 @@
-[h1]1.0.1.1: A Slight Hiccup[/h1]
-I seem to have forgotten that other mods use the Holy Mountain for important things, and that changing its layout would also affect or potentially break those mods. Whoops!
-This is a quick hotfix that disables the HM changes entirely until I sort out conflicts. Sorry for any inconvenience this causes in the meantime.
+[h1]1.1.0.0: Epilogue 2 and HM Fixes[/h1]
+Hi! This update carries icons for all of the new spells introduced in the recent Epilogue 2 Update, mod conflict fixes and a toggle (default off) for structure changes, and a few other new things.
 [quote]
-[h2]Fixes[/h2]
+[h2]New Additions[/h2]
+[b]Spells[/b]
+[list]
+[*]Anti-Homing
+[*]Deadly Heal
+[*]Vacuum Bounce
+[*]Lightning Bounce
+[*]Sparkly Bounce
+[*]Inner Spell
+[*]Cessation
+[*]Clusterbomb
+[*]Summon Fish
+[*]Heplicate Spell
+[*]Wand Homing
+[*]Hookbolt
+[*]Iplicate Spell
+[*]Holy Lance
+[*]Muodonmuutos
+[*]Peplicate Spell
+[*]Quplicate Spell
+[*]Sea of Mimicium
+[*]Sea of Swamp
+[*]Tiplicate Spell
+[*]Touch of Grass
+[*]Touch of Gold?
+[*]True Orbit
+[*]Wuplicate Spell
+[*]White Hole
+[*]Giga White Hole
+[*]Omega White Hole
+[*]Yplicate Spell
+[*]Null Shot
+[/list]
 [b]Pixel Scenes[/b]
 [list]
-[*]All changes to the Holy Mountain have been temporarily disabled until cross-mod conflicts can be addressed
+[*]Holy Mountain (again)
+[/list]
+[b]Technical[/b]
+[list]
+[*]Added a toggle for structure changes
 [/list]
 [/quote]
