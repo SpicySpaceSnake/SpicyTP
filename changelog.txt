@@ -1,4 +1,4 @@
-[h1]1.1.0.0: Epilogue 2 and HM Fixes[/h1]
+[h1]1.0.2.0: Epilogue 2 and HM Fixes[/h1]
 Hi! This update carries icons for all of the new spells introduced in the recent Epilogue 2 Update, mod conflict fixes and a toggle (default off) for structure changes, and a few other new things.
 [quote]
 [h2]New Additions[/h2]
@@ -41,5 +41,17 @@ Hi! This update carries icons for all of the new spells introduced in the recent
 [b]Technical[/b]
 [list]
 [*]Added a toggle for structure changes
+[*]Added a toggle for material changes
+[*]Added a toggle for enemy changes
+[/list]
+[/quote][quote]
+[h2]Fixes[/h2]
+[b]Spell Icons[/b]
+[list]
+[*]Minor tweak to Electric Charge
+[*]Color representions of fire vs explosions have been made more consistent
+[*]Polished Fire Trail
+[*]Tweaked Firecrackers
+[*]Minor tweak to Chain Spell
 [/list]
 [/quote]
