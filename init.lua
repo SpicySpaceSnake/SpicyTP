@@ -403,11 +403,11 @@ function OnModPostInit()
     local file_path_contents = ModTextFileGetContent(file_path)
     file_path_contents = file_path_contents:gsub(
         'width="52"',
-        'width="31"'
+        'width="32"'
     )
     file_path_contents = file_path_contents:gsub(
         'height="52"',
-        'height="31"'
+        'height="32"'
     )
     ModTextFileSetContent(file_path, file_path_contents)
 end
