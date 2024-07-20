@@ -378,10 +378,8 @@ function OnModPostInit()
     local file_path = "data/materials.xml"
     local file_path_contents = ModTextFileGetContent(file_path)
     file_path_contents = file_path_contents:gsub(
-        [[texture_file="data/materials_gfx/lavarock.png"
-        color="ff0A8240"]],
-        [[texture_file="mods/SpicyTP/files/materials_gfx/lavasand.png"
-        color="ff0A8240"]]
+        [[texture_file="data/materials_gfx/lavarock.png" color="ff0A8240"]],
+        [[texture_file="mods/SpicyTP/files/materials_gfx/lavasand.png" color="ff0A8240"]]
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
