@@ -34,15 +34,26 @@ Hi! This update carries icons for all of the new spells introduced in the recent
 [*]Yplicate Spell
 [*]Null Shot
 [/list]
+[b]Infobox Icons[/b]
+[list]
+[*]Holy Damage
+[/list]
 [b]Pixel Scenes[/b]
 [list]
 [*]Holy Mountain (again)
 [/list]
 [b]Technical[/b]
 [list]
-[*]Added a toggle for structure changes
-[*]Added a toggle for material changes
-[*]Added a toggle for enemy changes
+[*]Added toggles for changing:
+[list]
+[*]Enemies, particles, and projectiles
+[*]Materials
+[*]Structures
+[*]Items and objects
+[*]Wands
+[*]Boss health bars
+[*]Holy Mountains/Laboratory
+[/list]
 [/list]
 [/quote][quote]
 [h2]Fixes[/h2]
