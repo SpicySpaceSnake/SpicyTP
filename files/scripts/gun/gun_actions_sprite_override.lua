@@ -427,12 +427,23 @@ if ModSettingGet("SpicyTP.do_actions") then
         ["ZERO_DAMAGE"                          ] = true
         -- add action IDs here
     }
-
+    
     for i=1, #actions do
         if actions_to_edit[actions[i].id] then
             actions[i].sprite = table.concat{path, actions[i].id, ".png"}
         end
     end
-
     -- Prepared by Copi (Human#6606)
+
+    if ModIsEnabled("SpicyRandom") then
+        local path = "mods/SpicyTP/files/ui_gfx/gun_actions/SpicyRandom/"
+        local actions_to_edit = {
+            ["SSS-TOUCH_CHEESE"] = true
+        }
+        for i=1, #actions do
+            if actions_to_edit[actions[i].id] then
+                actions[i].sprite = table.concat{path, actions[i].id, ".png"}
+            end
+        end
+    end
 end
