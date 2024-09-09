@@ -66,3 +66,29 @@ Hi! This update carries icons for all of the new spells introduced in the recent
 [*]Minor tweak to Chain Spell
 [/list]
 [/quote]
+[h1]Cross-Mod Support: Pride Glimmers[/h1]
+[quote]
+[h2]New Additions[/h2]
+[b]Spells[/b]
+[list]
+[*]Aromantic Pride Glimmer
+[*]Asexual Pride Glimmer
+[*]Bisexual Pride Glimmer
+[*]Genderfluid Pride Glimmer
+[*]Genderqueer Pride Glimmer
+[*]Intersex Pride Glimmer
+[*]Lesbian Pride Glimmer
+[*]Non-Binary Pride Glimmer
+[*]Omnisexual Pride Glimmer
+[*]Pansexual Pride Glimmer
+[*]Polyamorous Pride Glimmer
+[*]Polysexual Pride Glimmer
+[*]Trans Pride Glimmer
+[*]Vincian Pride Glimmer
+[/list]
+[b]Particles/Emitters[/b]
+[list]
+[*]Polyamorous Heart
+[*]Polyamorous Infinity
+[/list]
+[/quote]
