@@ -445,4 +445,30 @@ if ModSettingGet("SpicyTP.do_actions") then
             end
         end
     end
+
+    -- Pride Glimmers
+    if ModIsEnabled("pride_glimmers") then
+        local path = "mods/SpicyTP/files/ui_gfx/gun_actions/pride_glimmers/"
+        local actions_to_edit = {
+            ["PRIDEGLIMMERS_ACE"]      = true,
+            ["PRIDEGLIMMERS_ARO"]      = true,
+            ["PRIDEGLIMMERS_BI"]       = true,
+            ["PRIDEGLIMMERS_ENBY"]     = true,
+            ["PRIDEGLIMMERS_FLUID"]    = true,
+            ["PRIDEGLIMMERS_GQ"]       = true,
+            ["PRIDEGLIMMERS_INTERSEX"] = true,
+            ["PRIDEGLIMMERS_LESBIAN"]  = true,
+            ["PRIDEGLIMMERS_MLM"]      = true,
+            ["PRIDEGLIMMERS_OMNI"]     = true,
+            ["PRIDEGLIMMERS_PAN"]      = true,
+            ["PRIDEGLIMMERS_POLY"]     = true,
+            ["PRIDEGLIMMERS_POLYAM"]   = true,
+            ["PRIDEGLIMMERS_TRANS"]    = true
+        }
+        for i=1, #actions do
+            if actions_to_edit[actions[i].id] then
+                actions[i].sprite = table.concat{path, actions[i].id, ".png"}
+            end
+        end
+    end
 end
