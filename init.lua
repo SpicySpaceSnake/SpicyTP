@@ -85,6 +85,42 @@ function OnModPostInit()
     )
     ModTextFileSetContent(file_path, file_path_contents)
 
+    -- PRIDE GLIMMERS
+    if ModIsEnabled("pride_glimmers") then
+        -- Polyamorous Pride Glimmer (changing the third possible color)
+        local file_path = "mods/pride_glimmers/files/materials.xml"
+        local file_path_contents = ModTextFileGetContent(file_path)
+        file_path_contents = file_path_contents:gsub(
+            "ff0A1027",
+            "ff66118b"
+        )
+        ModTextFileSetContent(file_path, file_path_contents)
+        -- (changing the filepath for the infinity particle)
+        local file_path = "mods/pride_glimmers/files/gfx/polyam_infinity.xml"
+        local file_path_contents = ModTextFileGetContent(file_path)
+        file_path_contents = file_path_contents:gsub(
+            "mods/pride_glimmers/files/gfx/polyam_infinity.png",
+            "mods/SpicyTP/files/particles/pride_glimmers/polyam_infinity.png"
+        )
+        ModTextFileSetContent(file_path, file_path_contents)
+        -- (changing the filepath for the heart particle)
+        local file_path = "mods/pride_glimmers/files/gfx/polyam_heart.xml"
+        local file_path_contents = ModTextFileGetContent(file_path)
+        file_path_contents = file_path_contents:gsub(
+            "mods/pride_glimmers/files/gfx/polyam_heart.png",
+            "mods/SpicyTP/files/particles/pride_glimmers/polyam_heart.png"
+        )
+        ModTextFileSetContent(file_path, file_path_contents)
+        -- (changing the spawn intervals for the infinity and heart particles)
+        local file_path = "mods/pride_glimmers/files/card/tinyspark_polyam.xml"
+        local file_path_contents = ModTextFileGetContent(file_path)
+        file_path_contents = file_path_contents:gsub(
+            'emission_interval_max_frames="10"',
+            'emission_interval_max_frames="20"'
+        )
+        ModTextFileSetContent(file_path, file_path_contents)
+    end
+
 -- ITEMS
     -- Egg (tentacle) (changing image)
     local file_path = "data/entities/items/pickup/egg_red.xml"
