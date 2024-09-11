@@ -1,4 +1,4 @@
-if ModSettingGet("SpicyTP.do_actions") then
+if ModSettingGet("SpicyTP.change_spells") then
     local path = "mods/SpicyTP/files/ui_gfx/gun_actions/"
     local actions_to_edit = {
         ["ACCELERATING_SHOT"]              = true,
