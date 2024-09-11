@@ -54,7 +54,7 @@ mod_settings =
     {
         id = "change_structures",
         ui_name = "Pixel Scenes",
-        ui_description = "If enabled, all supported pixel scenes will be restructured, and structure-related particles will be enabled.\nHoly Mountains aren't affected by this option; see the option below for that.",
+        ui_description = "If enabled, all supported pixel scenes will be restructured.\nStructure-related particles will also be enabled.\n\nHoly Mountains aren't affected by this option; see the option below for that.",
         value_default = "true",
         values = {{"true", "SpicyTP"}, {"false", "vanilla"}},
         scope = MOD_SETTING_SCOPE_RUNTIME_RESTART
